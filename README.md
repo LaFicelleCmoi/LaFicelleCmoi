@@ -57,7 +57,7 @@
 ![Stats](https://github-readme-stats.vercel.app/api?username=LaFicelleCmoi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&icon_color=7c3aed&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LaFicelleCmoi&layout=compact&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&langs_count=8)
 
-![Snake animation](https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/output/github-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/refs/heads/output/github-snake-dark.svg)
 
 </div>
 
