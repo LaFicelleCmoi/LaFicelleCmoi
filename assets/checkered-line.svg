@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="presentation" aria-hidden="true">
+  <defs>
+    <pattern id="c" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#8b98a9"/>
+      <rect x="12" y="12" width="12" height="12" fill="#8b98a9"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset=".88" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="1200" height="24" fill="url(#fade)"/></mask>
+  </defs>
+  <style>
+    @keyframes drift { to { transform: translateX(-48px) } }
+    .band { animation: drift 4s linear infinite }
+    @media (prefers-reduced-motion: reduce) { .band { animation: none } }
+  </style>
+  <g mask="url(#m)" opacity=".16">
+    <g class="band"><rect x="0" y="0" width="1296" height="24" fill="url(#c)"/></g>
+  </g>
+</svg>
