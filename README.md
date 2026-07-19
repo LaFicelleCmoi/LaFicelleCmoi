@@ -48,7 +48,7 @@
 | Pos. | Projet | Le pitch | Monoplace |
 |:---:|---|---|---|
 | 🥇 | **[Portfolio](https://portfolio-loisclerc.vercel.app/)** | Bilingue, thème F1, Lighthouse CI, synchro GitHub en live — et une monoplace pilotable cachée dedans | React · Tailwind · Framer Motion |
-| 🥈 | **[f1-2026](https://github.com/LaFicelleCmoi/f1-2026)** | Tracker temps réel de la saison F1 : classements, mode anti-spoiler, podium façon F1 TV | JavaScript · API temps réel |
+| 🥈 | **[f1-2026](https://f1-2026-gamma.vercel.app))** | Tracker temps réel de la saison F1 : classements, mode anti-spoiler, podium façon F1 TV | JavaScript · API temps réel |
 | 🥉 | **[LDC Tracker](https://github.com/LaFicelleCmoi/LDC-2026-2027-)** | La Ligue des Champions en direct, avec overlay OBS pour le stream | Vanilla JS · API ESPN |
 | P4 | **[cdm](https://cdm-hazel.vercel.app/)** | Coupe du Monde & Ligue des Nations : matchs, groupes, classements | HTML/CSS/JS · Vercel |
 | P5 | **[ChatFlow](https://github.com/LaFicelleCmoi/epitech)** | Messagerie temps réel type Discord — WebSockets, CI/CD | Next.js · PostgreSQL |
