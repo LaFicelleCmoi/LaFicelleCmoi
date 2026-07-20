@@ -61,7 +61,7 @@
 <div align="center">
 
 <img src="https://github-readme-stats.zohan.tech/api?username=LaFicelleCmoi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&icon_color=7c3aed&text_color=c9d1d9&count_private=true&include_all_commits=true&locale=fr&rank_icon=github&custom_title=T%C3%A9l%C3%A9m%C3%A9trie%20du%20pilote" alt="Statistiques GitHub" height="180" />
-<img src="https://streak-stats.demolab.com/?user=LaFicelleCmoi&locale=fr&hide_border=true&background=05060F&stroke=1E293B&ring=E10600&fire=E10600&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=E10600&sideLabels=7C3AED&dates=64748B" alt="Série de contributions" height="180" />
+<img src="https://streak-stats.vercel.app/?user=LaFicelleCmoi&locale=fr&hide_border=true&background=05060F&stroke=1E293B&ring=E10600&fire=E10600&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=E10600&sideLabels=7C3AED&dates=64748B" alt="Série de contributions" height="180" />
 
 <img src="https://github-readme-stats.zohan.tech/api/top-langs/?username=LaFicelleCmoi&layout=compact&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&text_color=c9d1d9&langs_count=8&locale=fr&custom_title=Carburants%20favoris" alt="Langages les plus utilisés" />
 
