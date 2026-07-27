@@ -48,11 +48,11 @@
 | Pos. | Projet | Le pitch | Monoplace |
 |:---:|---|---|---|
 | 🥇 | **[Portfolio](https://portfolio-loisclerc.vercel.app/)** | Bilingue, thème F1, Lighthouse CI, synchro GitHub en live — et une monoplace pilotable cachée dedans | React · Tailwind · Framer Motion |
-| 🥈 | **[f1-2026](https://f1-2026-gamma.vercel.app)** | Tracker temps réel de la saison F1 : classements, mode anti-spoiler, podium façon F1 TV | JavaScript · API temps réel |
-| 🥉 | **[LDC Tracker](https://ldc-2026-2027.vercel.app/)** | La Ligue des Champions en direct, avec overlay OBS pour le stream | Vanilla JS · API ESPN |
-| P4 | **[cdm](https://cdm-hazel.vercel.app/)** | Coupe du Monde & Ligue des Nations : matchs, groupes, classements | HTML/CSS/JS · Vercel |
+| 🥈 | **f1-2026**<br>[![Site](https://img.shields.io/badge/site-e10600?style=flat-square&logo=vercel&logoColor=white)](https://f1-2026-gamma.vercel.app) [![Code](https://img.shields.io/badge/code-1e293b?style=flat-square&logo=github&logoColor=white)](https://github.com/LaFicelleCmoi/f1-2026) | Tracker temps réel de la saison F1 : classements, mode anti-spoiler, podium façon F1 TV | JavaScript · API temps réel |
+| 🥉 | **LDC Tracker**<br>[![Site](https://img.shields.io/badge/site-e10600?style=flat-square&logo=vercel&logoColor=white)](https://ldc-2026-2027.vercel.app/) [![Code](https://img.shields.io/badge/code-1e293b?style=flat-square&logo=github&logoColor=white)](https://github.com/LaFicelleCmoi/LDC-2026-2027-) | La Ligue des Champions en direct, avec overlay OBS pour le stream | Vanilla JS · API ESPN |
+| P4 | **cdm**<br>[![Site](https://img.shields.io/badge/site-e10600?style=flat-square&logo=vercel&logoColor=white)](https://cdm-hazel.vercel.app/) [![Code](https://img.shields.io/badge/code-1e293b?style=flat-square&logo=github&logoColor=white)](https://github.com/LaFicelleCmoi/cdm) | Coupe du Monde & Ligue des Nations : matchs, groupes, classements | HTML/CSS/JS · Vercel |
 | P5 | **[ChatFlow](https://github.com/LaFicelleCmoi/epitech)** | Messagerie temps réel type Discord — WebSockets, CI/CD | Next.js · PostgreSQL |
-| P6 | **[Mario Party 2026](https://marioparty.vercel.app/)** | Championnat Mario Party entre potes : classement, stats par joueur, séries en cours — sauvegarde chiffrée AES | JavaScript · CSS · Vercel |
+| P6 | **Mario Party 2026**<br>[![Site](https://img.shields.io/badge/site-e10600?style=flat-square&logo=vercel&logoColor=white)](https://marioparty.vercel.app/) [![Code](https://img.shields.io/badge/code-1e293b?style=flat-square&logo=github&logoColor=white)](https://github.com/LaFicelleCmoi/Marioparty) | Championnat Mario Party entre potes : classement, stats par joueur, séries en cours — sauvegarde chiffrée AES | JavaScript · CSS · Vercel |
 
 <sub>…et le reste du paddock dort au dépôt : **[30+ repos par ici](https://github.com/LaFicelleCmoi?tab=repositories)**.</sub>
 
