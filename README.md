@@ -4,6 +4,8 @@
          /|_||_\`.__     Ici, tout est fait maison :
         (   _    _ _\    · la bannière et le damier → SVG animés dans /assets
         =`-(_)--(_)-'    · le serpent → GitHub Action, chaque nuit à 3h
+                         · le muret des stands → scripts/generate-pitwall.mjs,
+                           redessiné 2x/jour : mes stats GitHub + la F1 en direct
                          · zéro template copié-collé, promis.
      ══════════════════════════════════════════════════════════════ -->
 
@@ -32,6 +34,60 @@
 - 🛠️ Full-stack **React · Node.js · Python · Java · TypeScript** — et en course chez EZdrive : **Docker, Kubernetes, n8n, Firebase, Supabase**
 - 🏁 La **F1** comme fil rouge (mon portfolio se visite en monoplace, véridique), le **foot** en side-quests (trackers LDC & CDM maison) et le cinéma sur **[Letterboxd](https://letterboxd.com/LaFicelleCmoi/)**
 
+<div align="center">
+
+## 📡 Le muret des stands
+
+<img src="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/telemetry/pitwall.svg" width="100%" alt="Tableau de bord live façon régie F1 : tour de chronos de mes dépôts classés aux commits avec gommes selon leur fraîcheur, compte à rebours jusqu'au prochain Grand Prix, championnat pilotes F1 2026 réel, et trace de vitesse de mes contributions sur 60 jours." />
+
+**Ce n'est pas une capture d'écran.** Un script maison redessine ce tableau de bord deux fois par jour avec mes vraies stats GitHub **et le championnat F1 2026 en direct**.
+
+</div>
+
+<details>
+<summary><b>🔧 Comment ce tableau de bord se fabrique tout seul</b></summary>
+
+<br>
+
+Aucun service tiers, aucune image figée : un script Node de **zéro dépendance**, lancé par GitHub Actions.
+
+| Étape | Ce qui se passe |
+|---|---|
+| **1. Interrogation** | API GitHub GraphQL → mes dépôts, leurs commits, mon calendrier de contributions |
+| **2. Interrogation** | API [Jolpica](https://github.com/jolpica/jolpica-f1) (successeur d'Ergast) → classements et calendrier F1 2026 réels |
+| **3. Dessin** | Le script écrit le SVG à la main : chronos, gommes, barres d'écurie, trace de vitesse |
+| **4. Publication** | Dépôt sur la branche `telemetry`, que ce README affiche |
+
+Si l'API F1 tombe, le script repart du **dernier état vérifié** et l'annonce par un `F1 EN CACHE` dans l'en-tête — plutôt qu'un tableau de bord à moitié rendu. Si c'est GitHub qui tombe, il refuse d'écrire : la dernière version valide reste affichée.
+
+Le code est lisible et se lance en local :
+
+```bash
+GITHUB_TOKEN=$(gh auth token) node scripts/generate-pitwall.mjs dist/pitwall.svg
+```
+
+→ [`scripts/generate-pitwall.mjs`](https://github.com/LaFicelleCmoi/LaFicelleCmoi/blob/main/scripts/generate-pitwall.mjs) · [`.github/workflows/pitwall.yml`](https://github.com/LaFicelleCmoi/LaFicelleCmoi/blob/main/.github/workflows/pitwall.yml)
+
+</details>
+
+<details>
+<summary><b>🧭 Lire le tableau de bord (la légende)</b></summary>
+
+<br>
+
+| Élément | Signification |
+|---|---|
+| **Tour de chronos** | Mes dépôts classés au nombre de commits — mesuré, pas choisi à la main |
+| **Écart** | Nombre de commits de retard sur le dépôt leader, comme un écart au chrono |
+| **Gomme S / M / H** | Fraîcheur du dépôt : **S**oft = poussé il y a moins de 3 semaines · **M**edium = moins de 4 mois · **H**ard = au frigo |
+| **Barre de couleur** | Le langage principal du dépôt, aux couleurs officielles GitHub |
+| **Trace de vitesse** | Mes contributions jour par jour sur 60 jours, avec la moyenne en pointillés et le meilleur tour marqué |
+| **Barres d'écurie** | Vraies couleurs de carrosserie F1 2026 des équipes au championnat |
+
+Tout est animé au CSS pur dans le SVG, et tout s'arrête si votre système demande `prefers-reduced-motion`.
+
+</details>
+
 ## 🧰 Le garage
 
 | | Secteur | Sous le capot |
@@ -56,14 +112,14 @@
 
 <sub>…et le reste du paddock dort au dépôt : **[30+ repos par ici](https://github.com/LaFicelleCmoi?tab=repositories)**.</sub>
 
-## 📊 Télémétrie
+## 📊 Analyse post-course
 
 <div align="center">
 
 <img src="https://github-readme-stats.zohan.tech/api?username=LaFicelleCmoi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&icon_color=7c3aed&text_color=c9d1d9&count_private=true&include_all_commits=true&locale=fr&rank_icon=github&custom_title=T%C3%A9l%C3%A9m%C3%A9trie%20du%20pilote" alt="Statistiques GitHub" height="180" />
 <img src="https://streak-stats.vercel.app/?user=LaFicelleCmoi&locale=fr&hide_border=true&background=05060F&stroke=1E293B&ring=E10600&fire=E10600&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=E10600&sideLabels=7C3AED&dates=64748B" alt="Série de contributions" height="180" />
 
-<img src="https://github-readme-stats.zohan.tech/api/top-langs/?username=LaFicelleCmoi&layout=compact&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&text_color=c9d1d9&langs_count=8&locale=fr&custom_title=Carburants%20favoris" alt="Langages les plus utilisés" />
+<img src="https://github-readme-stats.zohan.tech/api/top-langs/?username=LaFicelleCmoi&layout=compact&theme=tokyonight&hide_border=true&bg_color=05060f&title_color=22d3ee&text_color=c9d1d9&langs_count=8&locale=fr&custom_title=Carburants%20favoris" alt="Langages les plus utilisés" height="180" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=LaFicelleCmoi&bg_color=05060f&color=94a3b8&line=e10600&point=22d3ee&area=true&area_color=e10600&hide_border=true&radius=16&custom_title=Trace%20GPS%20%E2%80%94%20mes%2030%20derniers%20jours%20de%20commits" alt="Graphe d'activité des 30 derniers jours" width="97%" />
 
@@ -76,7 +132,10 @@
 
 </div>
 
-## 📻 Radio d'équipe
+<details>
+<summary><b>📻 Ouvrir la radio d'équipe</b></summary>
+
+<br>
 
 > 📻 **« Box, box, box ! »** — moi, pour n'importe quel hotfix un vendredi à 17 h 58
 
@@ -85,6 +144,8 @@
 > 📻 **« GP2 engine ! GP2 ! Aaargh ! »** — moi, devant du code legacy sans types ni tests
 
 > 📻 **« Plan B, plan B ! »** — moi, quand la démo plante devant tout le monde
+
+</details>
 
 <img src="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/main/assets/checkered-line.svg" width="100%" height="24" alt="" />
 
