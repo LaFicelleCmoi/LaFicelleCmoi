@@ -1,0 +1,44 @@
+name: Muret des stands — télémétrie live
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *' # deux fois par jour : le compte à rebours et les classements bougent
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-pitwall.mjs'
+      - '.github/workflows/pitwall.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pitwall
+  cancel-in-progress: true
+
+jobs:
+  pitwall:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Génère le tableau de bord
+        # GH_PAT est optionnel : il ajoute les contributions privées au total.
+        # Sans lui, GITHUB_TOKEN suffit pour les données publiques.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-pitwall.mjs dist/pitwall.svg
+
+      # Branche dédiée : snake.yml force-push `output`, les deux se
+      # marcheraient dessus si elles partageaient la même cible.
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: telemetry
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
