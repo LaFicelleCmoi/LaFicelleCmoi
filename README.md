@@ -13,7 +13,7 @@
 
 <img src="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/main/assets/f1-start-lights.svg" alt="Cinq feux rouges s'allument un à un, s'éteignent… Loïs Clerc — feux éteints, c'est parti !" width="100%" />
 
-<a href="https://portfolio-loisclerc.vercel.app/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=720&height=46&lines=Full-Stack+%3A+React+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+TypeScript;Apprenti+Ing%C3%A9nieur+Transfo+Num%C3%A9rique+%26+Data+%40+EZdrive;J%27automatise+tout+ce+qui+bouge+%3A+n8n%2C+CI%2FCD%2C+Docker%2C+K8s;Fan+de+F1+%E2%80%94+mon+portfolio+se+pilote+en+monoplace;Un+projet+livr%C3%A9+%3E+un+projet+parfait" alt="Ce que je fais, en une ligne qui défile" /></a>
+<a href="https://portfolio-loisclerc.vercel.app/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=720&height=46&lines=Full-Stack+%3A+React+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+TypeScript;D%C3%A9veloppeur+Mobile+iOS+%26+Android+%40+Unistellar;J%27automatise+tout+ce+qui+bouge+%3A+n8n%2C+CI%2FCD%2C+Docker%2C+K8s;Fan+de+F1+%E2%80%94+mon+portfolio+se+pilote+en+monoplace;Un+projet+livr%C3%A9+%3E+un+projet+parfait" alt="Ce que je fais, en une ligne qui défile" /></a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--loisclerc.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-loisclerc.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Loïs_Clerc-0A66C2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjUgMHoiLz48L3N2Zz4=)](https://www.linkedin.com/in/lo%C3%AFs-clerc-a46583386/)
@@ -29,9 +29,9 @@
 
 ## 🏎️ Briefing d'avant-course
 
-- ⚡ **Apprenti Ingénieur Transformation Numérique & Data** chez **[EZdrive](https://ezdrive.fr)** (Groupe SURAYA) — l'écosystème souverain de la recharge électrique dans les DROM & l'Océan Indien
+- 🔭 **Développeur Mobile iOS & Android** en alternance chez **[Unistellar](https://www.unistellar.com/fr/)** — télescopes connectés et jumelles Envision, trois fois primés au CES
 - 🎓 Étudiant à **Epitech** après un BTS CIEL — la pédagogie par projets, ça tombe bien : **30+ repos** au compteur ici même
-- 🛠️ Full-stack **React · Node.js · Python · Java · TypeScript** — et en course chez EZdrive : **Docker, Kubernetes, n8n, Firebase, Supabase**
+- 🛠️ Full-stack **React · Node.js · Python · Java · TypeScript** — et en course chez Unistellar : **Swift, SwiftUI, Kotlin, Jetpack Compose, BLE, Firebase, GitLab CI**
 - 🏁 La **F1** comme fil rouge (mon portfolio se visite en monoplace, véridique), le **foot** en side-quests (trackers LDC & CDM maison) et le cinéma sur **[Letterboxd](https://letterboxd.com/LaFicelleCmoi/)**
 
 <div align="center">
