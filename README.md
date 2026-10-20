@@ -1,13 +1,13 @@
 <!-- ══════════════════════════════════════════════════════════════
-     Salut, curieux·se du code source 👋
-          ______
-         /|_||_\`.__     Ici, tout est fait maison :
-        (   _    _ _\    · la bannière et le damier → SVG animés dans /assets
-        =`-(_)--(_)-'    · le serpent → GitHub Action, chaque nuit à 3h
-                         · le muret des stands → scripts/generate-pitwall.mjs,
-                           redessiné 2x/jour : mes stats GitHub + la F1 en direct
-                         · zéro template copié-collé, promis.
-     ══════════════════════════════════════════════════════════════ -->
+     Salut, curieux·se du code source 👋
+          ______
+         /|_||_\`.__     Ici, tout est fait maison :
+        (   _    _ _\    · la bannière et le damier → SVG animés dans /assets
+        =`-(_)--(_)-'    · le serpent → GitHub Action, chaque nuit à 3h
+                         · le muret des stands → scripts/generate-pitwall.mjs,
+                           redessiné 2x/jour : mes stats GitHub + la F1 en direct
+                         · zéro template copié-collé, promis.
+     ══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
@@ -125,8 +125,8 @@ Tout est animé au CSS pur dans le SVG, et tout s'arrête si votre système dema
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=LaFicelleCmoi&bg_color=05060f&color=94a3b8&line=e10600&point=22d3ee&area=true&area_color=e10600&hide_border=true&radius=16&custom_title=Trace%20GPS%20%E2%80%94%20mes%2030%20derniers%20jours%20de%20commits" alt="Graphe d'activité des 30 derniers jours" width="97%" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/refs/heads/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/refs/heads/output/github-snake.svg" alt="Le serpent qui dévore mes contributions" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/refs/heads/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/LaFicelleCmoi/LaFicelleCmoi/refs/heads/output/github-snake.svg" alt="Le serpent qui dévore mes contributions" />
 </picture>
 
 <sub>Le serpent mange mes commits chaque nuit à 3 h, pendant que je dors — merci les GitHub Actions 🐍</sub>
